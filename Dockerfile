@@ -11,3 +11,4 @@ COPY ./nginx.conf /etc/nginx/
 COPY ./index.html /www/
 WORKDIR /www/
 EXPOSE 80
+RUN /usr/sbin/nginx
